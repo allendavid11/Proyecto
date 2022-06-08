@@ -78,30 +78,38 @@ body{
 header{
 	background-color: #ffffff;
 	text-align: center;
-	font-size: 26px;
 	font-weight: 300;
-	padding: 25px ;
 	justify-content: center!important;
+	
 }
+.fondoheader-a{
+	background-color: #C6E5E5;
+	padding-bottom: 25px;
+}
+.fondoheader-r{
+	background-color: #EC576B;
+	padding-bottom: 25px;
+}
+.fondoheader-b{
+	background-color: #ffffff;
+	border-top: 15px solid #C6E5E5;
+	padding-bottom: 25px;
+}
+
+
 header hr{
 	height: 3px;
 	width: 100%;
 	background-color: #E5E338;
 	position: relative;
-
+	margin-buttom:5px;
+	margin-bottom: 1px;
+	margin-top: 1px;
 }
 nav ul{
 	text-align:  center!important;
 }
  
-header hr.bcolor{
-	height: 15px;
-	width: 100%;
-	background-color: #4EC5C1;
-	position: relative;
-
-}
-
 #nueva{
 	background-image: url("../img/portada.jpg");
 	background-position: bottom;
@@ -278,6 +286,9 @@ font-size: 0.7vw!important;
 	object-fit: cover;
 	image-responsive: Auto;
 }
+#map .section{
+	padding: 50px 0!important;
+}
 .btn{
 	color: #FFFFFF;
 	background-color: #4EC5C1;
@@ -348,6 +359,7 @@ font-size: 0.7vw!important;
 .section{
 	padding: 50px 50px; 
 }
+
 .icono{
 	height: 30px;
 	image-responsive: Auto;
@@ -361,12 +373,20 @@ font-size: 0.7vw!important;
 font-size: 15px;
 margin-left: 25px;
 }
+
+
 .inicio-sesion{
-	padding-bottom: 50px;
+	padding-bottom: 60px;
+}
+.inicio-sesion ul {
+margin-top: 10px;
 }
 .luxo-logo{
-	text-align: center!important;
-	margin-right: 10px;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: auto;
+
 }
 #contacto{
 	background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/fondo-contacto.jpg");
@@ -380,7 +400,7 @@ margin-left: 25px;
 	font-size: 24px;
 }
 #contacto h1{
-	font-size: 80px;
+	font-size: 10vw;
 	text-align: center;
 	text-transform: uppercase;
 	color: #FFFFFF;
