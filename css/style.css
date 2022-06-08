@@ -1,0 +1,469 @@
+@font-face{
+	font-family: 'Myriad Pro';
+	src: url("../font/MYRIADPRO-REGULAR.OTF") format('truetype');
+	font-style: normal;
+	font-weight: 200;
+}
+@font-face{
+	font-family: 'Myriad Pro';
+	src: url("../font/MYRIADPRO-BOLD.OTF") format('truetype');
+	font-style: normal;
+	font-weight: 800;
+}
+@font-face{
+	font-family: 'Myriad Pro';
+	src: url("../font/MyriadPro-Light.otf") format('truetype');
+	font-style: normal;
+	font-weight: 100;
+}
+@font-face{
+	font-family: 'Myriad Pro';
+	src: url("../font/MYRIADPRO-SEMIBOLD.OTF") format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+body{
+	font-family: "Myriad Pro";
+	font-size: 14px;
+	color: #000000;
+}
+
+.inicio{
+	background-color:#FFFFFF;
+	color: #000000;
+ 	padding-top:5px;
+	text-align: center;
+	transition-property: background-color;
+	transition-duration: 750ms;
+}
+.inicio:hover{
+	background-color: #EC576B;
+}
+.productos{
+	background-color:#FFFFFF;
+	color: #000000;
+ 	padding-top:5px;
+	text-align: center;
+	transition-property: background-color color;
+	transition-duration: 750ms;
+}
+.productos:hover{
+	background-color: #E5E338;
+	color: #1B1B1B!important;
+}
+.quienessomos{
+	background-color:#FFFFFF;
+	color: #000000;
+ 	padding-top:5px;
+	text-align: center;
+	transition-property: background-color;
+	transition-duration: 750ms;
+}
+.quienessomos:hover{
+	background-color: #4EC5C1;
+}
+.contactanos{
+	background-color:#FFFFFF;
+	color: #000000;
+ 	padding-top:5px;
+	text-align: center;
+	transition-property: background-color;
+	transition-duration: 750ms;
+}
+.contactanos:hover{
+	background-color: #EC576B;
+}
+
+header{
+	background-color: #ffffff;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 300;
+	padding: 25px ;
+	justify-content: center!important;
+}
+header hr{
+	height: 3px;
+	width: 100%;
+	background-color: #E5E338;
+	position: relative;
+
+}
+nav ul{
+	text-align:  center!important;
+}
+ 
+header hr.bcolor{
+	height: 15px;
+	width: 100%;
+	background-color: #4EC5C1;
+	position: relative;
+
+}
+
+#nueva{
+	background-image: url("../img/portada.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5% 0 7% 0;	
+	text-align: center;
+
+}
+#nueva p{
+	text-transform: none!important;
+	margin-bottom: 35%;
+	font-weight: 200;
+}
+
+
+#nueva .btn{
+	vestical-align: text-bottom;
+	text-align: right;
+	float:right;
+}
+
+#destacados{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 50px 0px;
+}
+#destacados article{
+	margin-top: 30px;
+	padding: 0 25px;
+}
+#destacados img{
+	height: 200px;
+	width: 400px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+#destacados button{
+	color: #FFFFFF;
+	background-color: #EC576B!important;
+	border: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	}
+
+#suscripcion article{
+	background-color: #E5E338;
+	padding: 80px 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+}
+.bg-suscripcion{
+	background-image: url("../img/oficina-aprende-mas.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	text-align: center;
+}
+#suscripcion h2{
+	font-size: 42px;	
+}
+#suscripcion p{
+	font-size: 20px;	
+}
+#suscripcion h3{
+	font-size: 16px!important;	
+}
+#suscripcion button{
+	color: #FFFFFF;
+	background-color: #EC576B!important;
+	border: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	}
+
+#productos{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 50px 0px;
+}
+#productos article{
+	margin-top: 30px;
+	padding: 0 25px;
+}
+#productos img{
+	height: 200px;
+	width: 400px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+
+#sala-moderna .bg-sala{
+	background-image:url("../img/sala-moderna.jpg");
+	padding: 100px;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size:cover;
+	text-align: center;
+	}
+
+#sala-moderna button{
+	color: #FFFFFF;
+	background-color: #EC576B!important;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 5px 15px;
+	margin-top: 30px;
+	}
+#sala-moderna a{
+	color: #FFFFFF;
+
+	}
+#sala-moderna h3{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 800;
+	}
+#sala-moderna h4{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-top: -25px;
+	}
+#sala-moderna .sala-firenze{
+
+	padding-top: 15px;
+	margin-right: -150px;
+	margin-bottom: -150px;
+}
+#sala-moderna .precio1{
+	
+	text-align: left;
+	margin-bottom: 200px;
+	margin-left: -250px;
+}
+#sala-moderna p{
+margin-top: 25px;
+}
+
+.azul-sala{
+background-color: #4EC5C1;
+}
+sala-moderna .container h2{
+	padding-top: 10px;
+	margin-left: -100%;
+	margin-bottom: 50px;
+}
+.sala{
+font-size: 0.7vw!important;
+}
+#p-sala-de-estar img{
+	height: 300px;
+	width: 400px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+#p-sala-de-estar2 img{
+	padding-top: 50px;
+}
+#p-sala-de-estar2 img{
+	height: 300px;
+	width: 400px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+#p-sala-de-estar3 img{
+	height: 300px;
+	width: 400px;
+	object-fit: cover;
+	image-responsive: Auto;
+}
+.btn{
+	color: #FFFFFF;
+	background-color: #4EC5C1;
+	border: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px 15px;
+
+}
+.btn-primary:hover{
+	background-color: #133A39;
+}
+.rojo{
+	
+	color: #FFFFFF!important;
+	background-color: #EC576B!important;
+	border: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px 15px;
+
+}
+.titulo{
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+
+	color: #4EC5C1;
+}
+.subtitulo{
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-style: oblique;
+}
+
+.subtitulo2{
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.precio{
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-style: oblique;
+	color: #EC576B;
+}
+
+
+.textprecio{
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-style: oblique;
+	background-color: #EC576B;
+	color: #FFFFFF;
+	padding: 5px;
+}
+.section{
+	padding: 50px 50px; 
+}
+.icono{
+	height: 30px;
+	image-responsive: Auto;
+}
+.navtop{
+	vestical-align: text-bottom;
+	text-align: right;
+	float:right;
+}
+.navtop a{
+font-size: 15px;
+margin-left: 25px;
+}
+.inicio-sesion{
+	padding-bottom: 50px;
+}
+.luxo-logo{
+	text-align: center!important;
+	margin-right: 10px;
+}
+#contacto{
+	background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/fondo-contacto.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 0px;	
+	text-align: left;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+#contacto h1{
+	font-size: 80px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.map-responsive{
+overflow: hidden;
+	padding-bottom: 50%;
+	position: relative;
+	height: 0;
+}
+.map-responsive iframe{
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+
+#ubicacion{
+	padding: 2% 0;
+	color: #FFFFFF;
+	background-color: #4EC5C1;
+	text-align: center;
+	font-size: 24px;
+}
+#pie {
+	background-color: #EC576B;
+	color: #FFFFFF;
+	padding: 15px 0;
+	text-align: center
+}
+#pie img{
+	height: 60px;
+}
+
+#pie .subtitulo{
+	font-size: 14px!important;
+	font-weight: 100!important;
+	margin: 0 15px!important;
+}
+#pie a{
+	color: #FFFFFF;
+}
+#pie .icono{
+	text-align: center;
+
+	margin-top: 15px;
+	margin-right: 15px;
+	height: 20px;
+	image-responsive: Auto;
+}
+
+
+#pie a:hover{
+	color: #FFFFFF;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+fieldset{
+	background-color: rgba(215,215,215,0.48);
+	width: 100%;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	padding: 25px;
+	color: white;
+}
+#comentario{
+	background-color: rgba(215,215,215,0.48);
+	width: 100%;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	padding: 25px;
+	color: white;
+	font-size: 24px;
+}
+
+input,textarea:invalid:required {
+	background-color: rgba(215,215,215,0.48);
+}
+input,textarea:valid {
+	border: 1px solid black;
+	background-color: rgba(215,215,215,0.48);
+}
